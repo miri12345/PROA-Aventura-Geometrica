@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retângulo</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body id="pagina-retangulo">
+    <header>
+        <h1>Retângulo</h1>
+        <a href="index.html" class="voltar-home">Voltar à Página Inicial</a>
+    </header>
+    <main>
+        <section class="formas-container">
+            <h2>Informações sobre o Retângulo</h2>
+            <p>Um retângulo é uma figura geométrica com quatro lados, onde os ângulos internos são todos de 90 graus.</p>
+            <img src="imagens/icones/square.png" alt="Retângulo">
+        </section>
+        <section>
+            <h2>Calcular a Área do Retângulo</h2>
+            <form id="retangulo-form">
+                <label for="largura">Largura:</label>
+                <input type="number" id="largura" name="largura" required>
+                <label for="comprimento">Comprimento:</label>
+                <input type="number" id="comprimento" name="comprimento" required>
+                <button type="button" onclick="calcularAreaRetangulo()">Calcular Área</button>
+            </form>
+            <p id="resultado-retangulo"></p> <!-- Espaço onde o resultado será exibido -->
+        </section>
+        <script src="js/script.js"></script>
+    </main>
+</body>
+</html>
+
+
