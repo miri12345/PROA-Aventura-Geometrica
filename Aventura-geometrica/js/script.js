@@ -1,4 +1,4 @@
-// Função para calcular a área do triângulo
+
 function calcularAreaTriangulo() {
     const base = parseFloat(document.getElementById('base').value);
     const altura = parseFloat(document.getElementById('altura').value);
@@ -10,7 +10,7 @@ function calcularAreaTriangulo() {
     document.getElementById('resultado-triangulo').textContent = `A área do triângulo é ${area} .`;
 }
 
-// Função para calcular a área do retângulo
+
 function calcularAreaRetangulo() {
     const largura = parseFloat(document.getElementById('largura').value);
     const comprimento = parseFloat(document.getElementById('comprimento').value);
@@ -22,7 +22,7 @@ function calcularAreaRetangulo() {
     document.getElementById('resultado-retangulo').textContent = `A área do retângulo é ${area} .`;
 }
 
-// Função para calcular a área do círculo
+
 function calcularAreaCirculo() {
     const raio = parseFloat(document.getElementById('raio').value);
     if (isNaN(raio)) {
