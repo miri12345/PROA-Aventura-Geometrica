@@ -1,7 +1,7 @@
 
 body {
     font-family: Trebuchet MS, sans-serif;
-    background: linear-gradient(to right, #f9bec7, #fae0e4, #f9bec7); /* Gradiente suave de rosa claro */
+    background: linear-gradient(to right, #f9bec7, #fae0e4, #f9bec7); 
     text-align: center;
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
     color: #64000d;
-    text-shadow: 1px 1px 2px #fff; /* Sombra suave no texto */
+    text-shadow: 1px 1px 2px #fff; 
 }
 
 
@@ -24,24 +24,24 @@ p {
     color: #721925;
 }
 
-/* Estilos para o container das formas geométricas */
+
 .formas-container {
-    display: flex; /* Coloca as imagens em linha (lado a lado) */
-    justify-content: space-around; /* Distribui as imagens de forma uniforme */
-    align-items: center; /* Centraliza as imagens verticalmente */
-    margin-top: 20px; /* Adiciona um espaço acima */
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 20px; 
     
 }
 
-/* Estilos para as imagens */
+
 .formas-container img {
-    width: 300px; /* Tamanho das imagens */
+    width: 300px; 
     height: auto;
     border-radius: 15px; /* Bordas arredondadas nas imagens */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-/* Estilos para o texto */
+
 .formas-container p {
     text-align: center;
     font-size: 1.4em;
@@ -52,140 +52,140 @@ p {
 
 
 
-/* Estilos específicos para a página do círculo */
+
 #pagina-circulo {
-    background-color: #fddcdc; /* Cor de fundo para círculo */
-    min-height: 100vh; /* Ocupa toda a altura da viewport */
+    background-color: #fddcdc; 
+    min-height: 100vh; 
     color: #721925;
 }
 
 #pagina-circulo .formas-container {
     display: flex;
-    flex-direction: column; /* Organiza os itens em uma coluna */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    text-align: center; /* Centraliza o texto dentro do container */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
     color: #721925;
 }
 
 #pagina-circulo .formas-container img {
-    width: 200px; /* Ajusta a largura da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-top: 20px; /* Espaço acima da imagem */
+    width: 200px; 
+    height: auto; 
+    margin-top: 20px; 
 }
 
 #pagina-circulo .formas-container p {
-    font-size: 1.2em; /* Tamanho da fonte */
-    margin-top: 10px; /* Margem superior */
+    font-size: 1.2em; 
+    margin-top: 10px; 
     
     
 }
 
-/* Estilos específicos para a página do retângulo */
+
 #pagina-retangulo {
-    background-color: #fddcdc; /* Cor de fundo para retângulo */
-    min-height: 100vh; /* Ocupa toda a altura da viewport */
+    background-color: #fddcdc; 
+    min-height: 100vh; 
     color: #721925;
 }
 
 #pagina-retangulo .formas-container {
     display: flex;
-    flex-direction: column; /* Organiza os itens em uma coluna */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    text-align: center; /* Centraliza o texto dentro do container */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
     color: #721925;
 }
 
 #pagina-retangulo .formas-container img {
-    width: 200px; /* Ajusta a largura da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-top: 20px; /* Espaço acima da imagem */
+    width: 200px; 
+    height: auto; 
+    margin-top: 20px; 
 }
 
 #pagina-retangulo .formas-container p {
-    font-size: 1.2em; /* Tamanho da fonte */
-    margin-top: 10px; /* Margem superior */
+    font-size: 1.2em; 
+    margin-top: 10px; 
     
 }
 
-/* Estilos específicos para a página do triângulo */
+
 #pagina-triangulo {
-    background-color: #fddcdc; /* Cor de fundo para triângulo */
-    min-height: 100vh; /* Ocupa toda a altura da viewport */
+    background-color: #fddcdc; 
+    min-height: 100vh; 
     color: #721925;
 }
 
 #pagina-triangulo .formas-container {
     display: flex;
-    flex-direction: column; /* Organiza os itens em uma coluna */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    text-align: center; /* Centraliza o texto dentro do container */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
     color: #721925;
 }
 
 #pagina-triangulo .formas-container img {
-    width: 200px; /* Ajusta a largura da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-top: 20px; /* Espaço acima da imagem */
+    width: 200px; 
+    height: auto;
+    margin-top: 20px; 
 }
 
 #pagina-triangulo .formas-container p {
-    font-size: 1.2em; /* Tamanho da fonte */
-    margin-top: 10px; /* Margem superior */
+    font-size: 1.2em;
+    margin-top: 10px; 
 }
 
 
 
-/* Estilos base para botões */
+
 button {
-    background-color: #ff6f61; /* Cor de fundo rosa claro */
-    color: #fff; /* Cor do texto em branco */
-    border: none; /* Remove a borda padrão */
-    border-radius: 5px; /* Bordas arredondadas */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 1em; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para cor e transformação */
-    margin-top: 10px; /* Margem superior */
+    background-color: #ff6f61; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 20px;
+    font-size: 1em; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin-top: 10px; 
 }
 
-/* Estilos para o botão ao passar o mouse (hover) */
+
 button:hover {
-    background-color: #ff3d3d; /* Cor de fundo rosa mais escuro ao passar o mouse */
-    transform: scale(1.05); /* Leve aumento do tamanho */
+    background-color: #ff3d3d; 
+    transform: scale(1.05); 
 }
 
-/* Estilos para o botão ao ser pressionado (active) */
+
 button:active {
-    background-color: #e60000; /* Cor de fundo rosa ainda mais escuro ao clicar */
-    transform: scale(0.95); /* Leve redução do tamanho */
+    background-color: #e60000; 
+    transform: scale(0.95);
 }
 
 
 
 
-/* Estilos para o botão "Voltar à Página Inicial" */
+
 .voltar-home {
     display: inline-block;
-    background-color: #ff6f61; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
+    background-color: #ff6f61; 
+    color: #fff;
     border: none;
-    border-radius: 25px; /* Bordas arredondadas */
-    padding: 12px 24px; /* Tamanho do botão */
-    font-size: 1.1em; /* Tamanho da fonte */
+    border-radius: 25px; 
+    padding: 12px 24px; 
+    font-size: 1.1em; 
     cursor: pointer;
-    text-decoration: none; /* Remove o sublinhado */
+    text-decoration: none; 
     transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-top: 20px; /* Espaço acima */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-/* Efeito ao passar o mouse (hover) */
+
 .voltar-home:hover {
     background-color: #ff3d3d;
     transform: scale(1.05);
 }
 
-/* Efeito ao ser pressionado (active) */
+
 .voltar-home:active {
     background-color: #e60000;
     transform: scale(0.95);
